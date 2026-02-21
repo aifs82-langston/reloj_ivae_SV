@@ -28,11 +28,11 @@ sectores_nombres = {
     "IVAE_Servicios_Publicos": "ADMINISTRACIÓN PÚBLICA Y DEFENSA"
 }
 
-st.title("🟢📈 → 🟡⛰️ → 🔴📉 → 🔵🔄 Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE de El Salvador {flag_sv} ")
+st.title("🟢📈 → 🟡⛰️ → 🔴📉 → 🔵🔄 Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE de El Salvador")
 st.image("FullLogo.png", width=300)
 st.subheader("Comparativo de los últimos 3 años.")
 st.markdown("Alfredo Ibrahim Flores Sarria ©2026")
-flag_sv = "\U0001F1F8\U0001F1FB"
+
 # ==========================================
 # 3. CONTROLES DINÁMICOS INTELIGENTES
 # ==========================================
