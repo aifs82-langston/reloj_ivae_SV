@@ -28,7 +28,7 @@ sectores_nombres = {
     "IVAE_Servicios_Publicos": "ADMINISTRACIÓN PÚBLICA Y DEFENSA"
 }
 
-st.title("🟢📈 → 🟡⛰️ → 🔴📉 → 🔵🔄 Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE")
+st.title("🟢📈 → 🟡⛰️ → 🔴📉 → 🔵🔄 Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE de El Salvador 🇸🇻")
 st.image("FullLogo.png", width=300)
 st.subheader("Comparativo de los últimos 3 años.")
 st.markdown("Alfredo Ibrahim Flores Sarria ©2026")
