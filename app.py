@@ -28,8 +28,9 @@ sectores_nombres = {
     "IVAE_Servicios_Publicos": "ADMINISTRACIÓN PÚBLICA Y DEFENSA"
 }
 
-st.title("Reloj de la Tendencia-Ciclo")
-st.markdown("Monitor macroeconómico comparativo de los últimos 3 años.")
+st.title("Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE")
+st.markdown("Comparativo de los últimos 3 años.")
+st.markdown("Alfredo Ibrahim Flores Sarria ©2026")
 
 # ==========================================
 # 3. CONTROLES DINÁMICOS INTELIGENTES
