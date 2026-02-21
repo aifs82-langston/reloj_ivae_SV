@@ -166,28 +166,16 @@ for idx, (start, end) in enumerate(periodos):
         figura = dibujar_reloj_individual(start, end, config['colors'][idx], idx)
         st.pyplot(figura, use_container_width=True)
 
-# 7. Leyenda con HTML puro para colores exactos
+# 7. Leyenda 
 with st.expander("Ver Leyenda y Criterios de Interpretación", expanded=False):
     st.markdown("""
     **Trayectoria del Reloj:**
     * 🔵 **Círculo:** Inicio del período (Hace 12 meses).
-    * ⬛ **Cuadrado:** Fin del período (Mes de cierre).
+    * 🟦 **Cuadrado:** Fin del período (Mes de cierre).
     
-    **Interpretación de Cuadrantes (Fondos):**<br><br>
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-        <div style="width: 18px; height: 18px; background-color: #90EE90; border: 1px solid #666; border-radius: 3px; margin-right: 10px;"></div>
-        <b>Superior Derecho:</b> &nbsp; Crecimiento por encima de la tendencia.
-    </div>
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-        <div style="width: 18px; height: 18px; background-color: #FFB6C1; border: 1px solid #666; border-radius: 3px; margin-right: 10px;"></div>
-        <b>Superior Izquierdo:</b> &nbsp; Decrecimiento por encima de la tendencia (Desaceleración).
-    </div>
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-        <div style="width: 18px; height: 18px; background-color: #87CEEB; border: 1px solid #666; border-radius: 3px; margin-right: 10px;"></div>
-        <b>Inferior Izquierdo:</b> &nbsp; Decrecimiento por debajo de la tendencia (Recesión).
-    </div>
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-        <div style="width: 18px; height: 18px; background-color: #DDA0DD; border: 1px solid #666; border-radius: 3px; margin-right: 10px;"></div>
-        <b>Inferior Derecho:</b> &nbsp; Crecimiento por debajo de la tendencia (Recuperación).
-    </div>
-    """, unsafe_allow_html=True)
+    **Interpretación de Cuadrantes:**
+    * 🟩 **Superior Derecho:** Crecimiento por encima de la tendencia.
+    * 🟥 **Superior Izquierdo:** Decrecimiento por encima de la tendencia (Desaceleración).
+    * 🟦 **Inferior Izquierdo:** Decrecimiento por debajo de la tendencia (Recesión).
+    * 🟪 **Inferior Derecho:** Crecimiento por debajo de la tendencia (Recuperación).
+    """)
