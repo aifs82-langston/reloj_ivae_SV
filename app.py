@@ -131,7 +131,7 @@ def dibujar_reloj_individual(start, end, color, idx):
             offset_x = 25 if i == 0 else -25
             va_pos = 'bottom' if y_val > 0 else 'top'
             
-            ax.annotate(f'{mes_texto} {fecha_str[:4]}\nΔ: {x_val:.2f}\nC: {y_val:.2f}',
+            ax.annotate(f'{mes_texto} {fecha_str[:4]}\nΔC: {x_val:.2f}\nC: {y_val:.2f}',
                         (x_val, y_val), textcoords="offset points",
                         xytext=(offset_x, 15 if i == 0 else -15),
                         ha='right' if i == 1 else 'left', va=va_pos,
