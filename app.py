@@ -174,8 +174,8 @@ with st.expander("Ver Leyenda y Criterios de Interpretación", expanded=False):
      * 🟦 **Cuadrado:** Fin del período (Mes de cierre).
     
     **Criterios de Interpretación:**
-    * ΔC$_t$ > 0, C$_t$ > 0 → Crecimiento por encima de la tendencia
-    * ΔC$_t$ < 0, C$_t$ > 0 → Decrecimiento por encima de la tendencia
-    * ΔC$_t$ < 0, C$_t$ < 0 → Decrecimiento por debajo de la tendencia
-    * ΔC$_t$ > 0, C$_t$ < 0 → Crecimiento por debajo de la tendencia
+    * ΔC$_t$ > 0, C$_t$ > 0 → Crecimiento por encima de la tendencia (Primer cuadrante)
+    * ΔC$_t$ < 0, C$_t$ > 0 → Decrecimiento por encima de la tendencia (Segundo cuadrante)
+    * ΔC$_t$ < 0, C$_t$ < 0 → Decrecimiento por debajo de la tendencia (Tercer cuadrante)
+    * ΔC$_t$ > 0, C$_t$ < 0 → Crecimiento por debajo de la tendencia (Cuarto cuadrante)
     """)
