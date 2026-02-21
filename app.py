@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.filters.hp_filter import hpfilter
 
 # 1. Configuración de la página
-st.set_page_config(page_title="Monitor IVAE El Salvador", layout="centered")
+st.set_page_config(page_title="⏱️Análisis de los gráficos de reloj del IVAE El Salvador", layout="centered")
 
 # 2. Caché de datos
 @st.cache_data
