@@ -29,7 +29,7 @@ sectores_nombres = {
 }
 
 st.title("Análisis de los gráficos de reloj de la tendencia-ciclo del IVAE")
-st.markdown("Comparativo de los últimos 3 años.")
+st.subheader("Comparativo de los últimos 3 años.")
 st.markdown("Alfredo Ibrahim Flores Sarria ©2026")
 
 # ==========================================
