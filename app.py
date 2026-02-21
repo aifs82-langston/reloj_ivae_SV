@@ -170,8 +170,8 @@ for idx, (start, end) in enumerate(periodos):
 with st.expander("Ver Leyenda y Criterios de Interpretación", expanded=False):
     st.markdown("""
     **Trayectoria del Reloj:**
-    * **Círculo (o):** Inicio del período (Hace 12 meses).
-    * **Cuadrado (s):** Fin del período (Mes de cierre).
+    * 🔵 **Círculo:** Inicio del período (Hace 12 meses).
+    * 🟦 **Cuadrado:** Fin del período (Mes de cierre).
     
     **Criterios de Interpretación:**
     * Δ > 0, C$_t$ > 0 → Crecimiento por encima de la tendencia
