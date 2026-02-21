@@ -108,7 +108,7 @@ def dibujar_reloj_individual(start, end, color, idx):
     df_periodo = df.loc[start:end].sort_index()
     mask = df_periodo['Delta'].notna()
 
-    ax.set_xlabel('Variación del Ciclo (ΔC$_t$)', fontsize=12)
+    ax.set_xlabel('Variación del Ciclo Normalizado (ΔC$_t$)', fontsize=12)
     ax.set_ylabel('Ciclo Normalizado (C$_t$)', fontsize=12)
     ax.grid(True, alpha=0.2, linestyle=':')
 
