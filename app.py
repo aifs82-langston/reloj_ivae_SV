@@ -10,7 +10,7 @@ st.set_page_config(page_title="Análisis de los gráficos de reloj del IVAE El S
 # 2. Caché de datos
 @st.cache_data
 def cargar_datos():
-    df = pd.read_excel('Tendencia_Ciclo_Sectores_IVAE_20022026.xlsx', parse_dates=['Fecha'], index_col='Fecha').sort_index()
+    df = pd.read_excel('Tendencia_Ciclo_Sectores_IVAE_13032026.xlsx', parse_dates=['Fecha'], index_col='Fecha').sort_index()
     return df
 
 df_base = cargar_datos()
